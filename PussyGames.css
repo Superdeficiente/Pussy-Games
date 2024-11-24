@@ -1,0 +1,142 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------------------------------------------*/
+body {
+    background-image: url(fondopagina.png);
+    font-family: 'Caveat Brush', cursive;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*-------------------------------------------------------*/
+#contenedorTitulo {
+    width: 100%;
+    height: auto;
+    background-color: rgba(102, 10, 82, 1);
+    padding-bottom: 10px;
+}
+/*-------------------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+}
+
+header h1, header h2 {
+    color: rgb(239, 106, 187) !important;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+h3 {
+    margin-top: 20px;
+    color: rgb(239, 151, 203);
+    font-style: oblique;
+    font-size: 90px;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 80px;
+}
+
+h4 {
+    text-align: left;
+    margin-right: 20px;
+    color: rgb(239, 151, 203);
+    font-style: oblique;
+    font-size: 90px;
+    line-height: 80px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+/*-------------------------------------------------------*/
+#socialBar {
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgba(102, 10, 82, 0.01);
+    transition: all 0.3s ease;
+}
+
+#socialBar.visible {
+    display: flex;
+}
+
+#socialBar img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+/*-------------------------------------------------------*/
+#contIntro, #contIntro2, #contIntro3 {
+    width: 55vw;
+    background-color: rgb(236, 231, 231);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#contIntro {
+    position: relative;
+    width: 55vw;
+    background-color: rgb(236, 231, 231);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#contIntro img {
+    position: absolute;
+    top: 88%;
+    right: -50%;
+    transform: translateY(-50%);
+    max-width: 40%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+#contIntro3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 55vw;
+    background-color: rgb(236, 231, 231);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#imagenCodigo {
+    display: none;
+    position: absolute;
+    top: 95%;
+    right: 50%;
+    width: 80%;
+}
+#imagenCodigo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*-------------------------------------------------------*/
+p {
+    font-size: 40px;
+    line-height: 1.6;
+    color: rgb(239, 151, 203);
+    margin-left: 30px;
+}
+
+p2 {
+    font-size: 40px;
+    line-height: 1.6;
+    color: rgb(239, 151, 203);
+    margin-right: 50px;
+}
